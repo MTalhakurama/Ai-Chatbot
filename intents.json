@@ -1,0 +1,248 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Hay"
+            ],
+            "responses": [
+                "Hello",
+                "Hi",
+                "Hi there"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later",
+                "Have a nice day",
+                "Bye! Come back again"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who you are?"
+            ],
+            "responses": [
+                "I.m Joana, your bot assistant",
+                "I'm Joana, an Artificial Intelligent bot"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Joana.",
+                "I'm Joana!",
+                "Just call me as Joana"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me?",
+                "give me a hand please",
+                "Can you help?",
+                "What can you do for me?",
+                "I need a support",
+                "I need a help",
+                "support me please"
+            ],
+            "responses": [
+                "Tell me how can assist you",
+                "Tell me your problem to assist you",
+                "Yes Sure, How can I support you"
+            ]
+        },
+        {
+            "tag": "createaccount",
+            "patterns": [
+                "I need to create a new account",
+                "how to open a new account",
+                "I want to create an account",
+                "can you create an account for me",
+                "how to open a new account"
+            ],
+            "responses": [
+                "You can just easily create a new account from our web site",
+                "Just go to our web site and follow the guidelines to create a new account"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like today?",
+                "Tell me the current weather",
+                "Is it going to rain?",
+                "Weather forecast"
+            ],
+            "responses": [
+                "I can provide you with the current weather. Please tell me your location.",
+                "Sure, I can help with the weather. Where are you located?"
+            ]
+        },
+        {
+            "tag": "appointment",
+            "patterns": [
+                "How do I schedule an appointment?",
+                "Book an appointment",
+                "Can I schedule a meeting?",
+                "Appointment availability"
+            ],
+            "responses": [
+                "To schedule an appointment, please visit our website or contact our customer service.",
+                "Sure, I can assist you with scheduling an appointment. What date and time are you looking for?"
+            ]
+        },
+        {
+            "tag": "product_info",
+            "patterns": [
+                "Tell me about your products",
+                "What products do you offer?",
+                "Product information",
+                "Features of your products"
+            ],
+            "responses": [
+                "We offer a variety of products. You can find detailed information on our website or ask me about a specific product.",
+                "Certainly! Our products range from [mention categories]. Is there a particular product you'd like more information about?"
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Check my order status",
+                "Where is my package?",
+                "Track my order",
+                "Order delivery status"
+            ],
+            "responses": [
+                "To check your order status, please log in to your account on our website or contact our customer support with your order number.",
+                "Sure, I can help you track your order. Could you please provide your order number?"
+            ]
+        },
+        {
+            "tag": "suggestions",
+            "patterns": [
+                "Any recommendations for a movie?",
+                "Suggest a book to read",
+                "Recommend a restaurant",
+                "I need some suggestions"
+            ],
+            "responses": [
+                "Certainly! For movies, I recommend [movie title]. If you're into books, [book title] is a great choice. For restaurants, try [restaurant name]. Let me know if you need more suggestions!",
+                "I'd be happy to help with suggestions! What type of [movie/book/restaurant] are you in the mood for?"
+            ]
+        },
+        {
+            "tag": "formal_greeting",
+            "patterns": [
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "It's a pleasure to meet you",
+                "How do you do?"
+            ],
+            "responses": [
+                "Good morning! How can I assist you today?",
+                "Good afternoon! I'm here to help. What can I do for you?",
+                "Good evening! I hope you're having a great day. How may I be of service?",
+                "The pleasure is mine. How may I assist you?",
+                "How do you do? I'm here to help with any inquiries you may have."
+            ]
+        },
+        {
+            "tag": "formal_farewell",
+            "patterns": [
+                "Goodbye for now",
+                "Until we meet again",
+                "Wishing you a pleasant day",
+                "Farewell",
+                "Take care"
+            ],
+            "responses": [
+                "Goodbye for now! If you have any more questions, feel free to return.",
+                "Until we meet again. Take care and have a wonderful day!",
+                "Wishing you a pleasant day! If you need assistance in the future, don't hesitate to ask.",
+                "Farewell! If there's anything else I can help you with, please let me know.",
+                "Take care! If you ever require assistance, I'll be here."
+            ]
+        },
+        {
+            "tag": "formal_request",
+            "patterns": [
+                "I kindly request your assistance",
+                "May I ask for your help?",
+                "Could you please provide guidance?",
+                "I'm in need of your support",
+                "If it's not too much trouble, can you help me?"
+            ],
+            "responses": [
+                "Certainly! I'm here to assist you. Please let me know what you need help with.",
+                "Of course! Your request is important, and I'm here to provide the support you require.",
+                "Certainly, I'm at your service. What can I help you with?",
+                "Your request is noted. I'm here to provide the guidance and support you're seeking.",
+                "It's not too much trouble at all. I'm here to help. What do you need assistance with?"
+            ]
+        },
+        {
+            "tag": "formal_appreciation",
+            "patterns": [
+                "I appreciate your assistance",
+                "Thank you for your help",
+                "I'm grateful for your support",
+                "Your guidance is highly valued",
+                "I extend my thanks to you"
+            ],
+            "responses": [
+                "You're very welcome! I'm glad I could assist you.",
+                "It was my pleasure to help. If you have more questions in the future, feel free to reach out.",
+                "I'm delighted to have been of assistance. If you need further support, don't hesitate to ask.",
+                "I appreciate your kind words. Providing guidance is what I'm here for.",
+                "The pleasure is mine. If there's anything else you need, feel free to let me know."
+            ]
+        }
+    ]
+}
